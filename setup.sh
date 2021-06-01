@@ -24,6 +24,9 @@ wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
 sleep 0.5
 
 apt install ./teamviewer_amd64.deb
+sleep 0.5
+
+apt-get install xterm
 
 
 echo "Checking for python and it's updates"
