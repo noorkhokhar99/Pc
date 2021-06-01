@@ -46,15 +46,7 @@ pip install -r requirements.txt
 
 sleep 0.5
 
-cd Pc
-sleep 0.5
 
-
-
-chmod +x setup.sh
-sleep 0.5
-./setup.sh
-sleep 0.5
 echo "Installation Completed"
 echo "Now, You can use your tool"
 
