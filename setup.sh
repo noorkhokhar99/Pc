@@ -27,6 +27,7 @@ apt install ./teamviewer_amd64.deb
 sleep 0.5
 
 apt-get install xterm
+sleep 0.5
 
 
 echo "Checking for python and it's updates"
