@@ -7,6 +7,12 @@ donwnload report:
 
 git clone https://github.com/noorkhokhar99/Pc.git
 
+check gitub report:
+
+ls
+
+cd Pc
+
 
 Installation
 
