@@ -26,7 +26,7 @@ sleep 0.5
 apt install ./teamviewer_amd64.deb
 sleep 0.5
 
-apt-get install xterm
+sudo apt-get install xterm
 sleep 0.5
 
 
