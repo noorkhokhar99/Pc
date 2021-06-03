@@ -29,6 +29,9 @@ sleep 0.5
 sudo apt-get install xterm
 sleep 0.5
 
+sudo apt-get install libportaudio2
+sleep 0.5
+
 
 echo "Checking for python and it's updates"
 sleep 0.5
@@ -37,6 +40,7 @@ sleep 0.5
 apt install python-pip
 sleep 0.5
 python -m pip install --upgrade pip
+
 
 echo -e "\n"
 sleep 0.5
