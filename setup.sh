@@ -62,9 +62,15 @@ sudo apt-get install python3.7
 sleep 0.5
 #python -m pip install --upgrade pip
 
+sleep 1.5
+
+sudo apt-get install xserver-xorg-video-dummy
+
 
 echo -e "\n"
 sleep 0.5
+
+
 echo "Checking for Required Python Pakages"
 sleep 1
 pip install -r requirements.txt
