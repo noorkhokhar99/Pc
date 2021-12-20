@@ -26,7 +26,18 @@ sleep 0.5
 apt install ./teamviewer_amd64.deb
 sleep 0.5
 
-sudo apt-get install xterm
+
+wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | sudo apt-key add -
+
+sleep 0.5
+
+echo "deb http://deb.anydesk.com/ all main" | sudo tee /etc/apt/sources.list.d/anydesk-stable.list
+apt update
+sleep 0.5
+
+apt install anydesk
+
+#sudo apt-get install xterm
 sleep 0.5
 
 sudo apt-get install libportaudio2
@@ -35,11 +46,21 @@ sleep 0.5
 
 echo "Checking for python and it's updates"
 sleep 0.5
-apt-get install python -y
+sudo add-apt-repository ppa:deadsnakes/ppa
+
+
+#apt-get install python -y
 sleep 0.5
-apt install python-pip
+
+sudo apt-get update
+
+
+#apt install python-pip
+sudo apt-get install python3.7
+
+
 sleep 0.5
-python -m pip install --upgrade pip
+#python -m pip install --upgrade pip
 
 
 echo -e "\n"
