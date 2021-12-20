@@ -65,7 +65,22 @@ sleep 0.5
 sleep 1.5
 
 sudo apt-get install xserver-xorg-video-dummy
+sleep 1.5
 
+sudo apt-get install xserver-xorg-video-vesa
+sleep 1.5
+
+apt update
+sleep 1.5
+
+apt install xrdp
+sleep 1.5
+
+#sudo systemctl enable --now xrdp
+sleep 1.5
+
+ufw allow from any to any port 3389 proto tcp
+sleep 1.5
 
 echo -e "\n"
 sleep 0.5
