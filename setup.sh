@@ -19,6 +19,7 @@ echo "Checking for system update"
 apt update 
 
 echo -e "\n"
+sudo apt-get install python3-pip
 
 wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
 sleep 0.5
