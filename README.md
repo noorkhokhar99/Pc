@@ -1,22 +1,22 @@
-# Pc
-update_version
+# ubuntu setting  & Pc ready
+# update_version
 
 sudo apt-get install git
 
-donwnload report:
+# donwnload report:
 
 git clone https://github.com/noorkhokhar99/Pc.git
 
-check gitub report:
+# check gitub report:
 
 ls
 
 cd Pc
 
 
-Installation
+# Installation
 
-Download the "setup.sh" file and follow the commands:
+# Download the "setup.sh" file and follow the commands:
 
 
 
