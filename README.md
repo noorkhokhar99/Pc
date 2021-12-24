@@ -26,6 +26,7 @@ chmod +x setup.sh
 
 
 
+# Add Fake Display when No Monitor is Plugged In
 
 
 sudo nano /usr/share/X11/xorg.conf.d/xorg.conf
