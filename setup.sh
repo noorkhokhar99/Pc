@@ -36,6 +36,7 @@ echo "deb http://deb.anydesk.com/ all main" | sudo tee /etc/apt/sources.list.d/a
 apt update
 sleep 0.5
 
+
 apt install anydesk
 
 #sudo apt-get install xterm
@@ -59,6 +60,7 @@ sudo apt-get update
 #apt install python-pip
 sudo apt-get install python3.7
 
+sudo apt-get install -y qterminal
 
 sleep 0.5
 #python -m pip install --upgrade pip
