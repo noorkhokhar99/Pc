@@ -1,4 +1,7 @@
 # ubuntu setting  & Pc ready
+
+sudo apt-get update
+
 # update_version
 
 sudo apt-get install git
