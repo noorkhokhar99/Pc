@@ -61,6 +61,17 @@ sudo apt-get update
 sudo apt-get install python3.7
 
 sudo apt-get install -y qterminal
+sleep 0.5
+
+sudo apt-get install curl
+sleep 0.5
+
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+sleep 0.5
+
+sudo python3.7 get-pip.py
+sleep 0.5
+
 
 sleep 0.5
 #python -m pip install --upgrade pip
