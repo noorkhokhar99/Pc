@@ -102,7 +102,7 @@ sleep 0.5
 
 echo "Checking for Required Python Pakages"
 sleep 1
-pip install -r requirements.txt
+python3.7 -m pip install -r requirements.txt
 
 sleep 0.5
 
