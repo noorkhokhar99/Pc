@@ -69,6 +69,9 @@ sleep 0.5
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 sleep 0.5
 
+
+sudo apt install python3.7-distutils
+
 sudo python3.7 get-pip.py
 sleep 0.5
 
