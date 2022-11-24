@@ -59,3 +59,15 @@ EndSection
 
 
 ````
+
+
+
+
+
+
+# auto script in bashrc 
+
+````
+sudo nano .bashrc
+
+````
