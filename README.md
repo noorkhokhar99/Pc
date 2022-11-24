@@ -65,9 +65,16 @@ EndSection
 
 
 
-# auto script in bashrc 
+# Auto script in bashrc 
 
 ````
 sudo nano .bashrc
+
+````
+
+
+# Put file python
+````
+python3.7 name.py
 
 ````
