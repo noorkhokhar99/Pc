@@ -18,9 +18,23 @@ echo -e "\n"
 echo "Checking for system update"
 apt update 
 
-echo -e "\n"
-sudo apt-get install python3-pip
 
+
+echo -e "\n"
+#sudo apt-get install python3-pip
+
+###arduino donwload
+
+
+wget https://downloads.arduino.cc/arduino-1.8.15-linux64.tar.xz
+sleep 0.5
+
+#Extract the tar.xz file:
+
+tar -xvf ./arduino-1.8.15-linux64.tar.xz
+
+
+# teamviewer donwload
 wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
 sleep 0.5
 
@@ -107,6 +121,12 @@ echo "Checking for Required Python Pakages"
 sleep 1
 python3.7 -m pip install -r requirements.txt
 
+sleep 0.5
+
+cd arduino-1.8.15/
+sleep 0.5
+
+sudo ./install.sh
 sleep 0.5
 
 
