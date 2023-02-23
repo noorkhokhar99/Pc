@@ -78,3 +78,13 @@ sudo nano .bashrc
 python3.7 name.py
 
 ````
+
+
+# liberay install 
+
+````
+python3.7 -m pip install schedule
+
+
+````
+
