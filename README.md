@@ -1,38 +1,48 @@
 # ubuntu setting  & Pc ready
 
+````
 sudo apt-get update
+````
 
 # update_version
 
+````
 sudo apt-get install git
+````
 
 # donwnload report:
 
+````
 git clone https://github.com/noorkhokhar99/Pc.git
+````
 
 # check gitub report:
 
 ls
 
+````
 cd Pc
-
+````
 
 # Installation
 
 # Download the "setup.sh" file and follow the commands:
 
 
-
+````
 chmod +x setup.sh
+````
 
+````
 ./setup.sh
-
+````
 
 
 # Add Fake Display when No Monitor is Plugged In
 
-
+````
 sudo nano /usr/share/X11/xorg.conf.d/xorg.conf
+````
 
 ````
 Section "Device"
