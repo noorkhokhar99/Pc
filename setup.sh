@@ -82,6 +82,11 @@ sleep 0.5
 
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 sleep 0.5
+sudo apt install  python3-pip
+sleep 0.5
+
+
+sudo apt install  python3-serial
 
 
 sudo apt install python3.7-distutils
@@ -115,6 +120,8 @@ sleep 1.5
 
 echo -e "\n"
 sleep 0.5
+
+
 
 
 echo "Checking for Required Python Pakages"
