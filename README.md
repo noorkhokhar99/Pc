@@ -85,7 +85,7 @@ sudo nano .bashrc
 
 # Put file python
 ````
-python3.7 name.py
+sudo python3.7 app.py
 
 ````
 
