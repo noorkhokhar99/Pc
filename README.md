@@ -93,7 +93,7 @@ sudo python3.7 app.py
 # liberay install 
 
 ````
-python3.7 -m pip install schedule
+sudo python3.7 -m pip install flask
 
 
 ````
