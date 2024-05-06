@@ -122,3 +122,9 @@ network:
 
 
 ````
+
+
+
+````
+sudo netplan apply
+````
