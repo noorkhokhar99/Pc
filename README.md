@@ -98,3 +98,9 @@ sudo python3.7 -m pip install flask
 
 ````
 
+# static ip mini pc
+
+````
+sudo nano /etc/netplan/01-netcfg.yaml
+````
+
