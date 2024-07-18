@@ -125,6 +125,10 @@ network:
 
 
 
+````
+sudo netplan apply
+````
+
 
 
 
@@ -145,7 +149,34 @@ sudo apt install xserver-xorg-video-dummy
 
 
 
+````
+Section "Device"
+    Identifier  "Configured Video Device"
+    Driver      "dummy"
+    VideoRam    256000
+EndSection
+
+Section "Monitor"
+    Identifier  "Configured Monitor"
+    HorizSync   31.5-48.5
+    VertRefresh 50-70
+    Modeline    "1920x1080" 148.50 1920 2008 2052 2200 1080 1084 1089 1125 -hsync +vsync
+EndSection
+
+Section "Screen"
+    Identifier  "Default Screen"
+    Monitor     "Configured Monitor"
+    Device      "Configured Video Device"
+    DefaultDepth 24
+    SubSection "Display"
+        Depth    24
+        Modes    "1920x1080"
+    EndSubSection
+EndSection
+
 
 ````
-sudo netplan apply
-````
+
+
+
+
