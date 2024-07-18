@@ -125,6 +125,27 @@ network:
 
 
 
+
+
+
+# Add Fake Display when No Monitor is Plugged In new 
+
+
+````
+sudo apt update
+
+````
+
+````
+sudo apt install xserver-xorg-video-dummy
+
+````
+
+
+
+
+
+
 ````
 sudo netplan apply
 ````
