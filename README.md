@@ -98,6 +98,11 @@ sudo python3.7 -m pip install flask
 
 ````
 
+
+````
+sudo pip install awsiotsdk
+````
+
 # static ip mini pc
 
 ````
