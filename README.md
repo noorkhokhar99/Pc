@@ -184,4 +184,15 @@ EndSection
 
 
 
+# logs
+````
+cd /greengrass/ggc/var/log/system
+
+
+````
+````
+tail -f localwatch/localwatch.log *.log 
+````
+
+
 
