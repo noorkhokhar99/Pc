@@ -204,3 +204,21 @@ sudo systemctl enable greengrass
 sudo systemctl status greengrass
 ````
 
+
+
+
+##### remove sudo  password ###
+# Open a terminal.
+````
+
+sudo visudo 
+````
+
+
+Scroll down to the section with user privileges.
+
+Add this line at the end, replacing username with your actual username:
+
+````
+poulta ALL=(ALL) NOPASSWD: ALL
+````
