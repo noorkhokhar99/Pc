@@ -196,3 +196,11 @@ tail -f localwatch/localwatch.log *.log
 
 
 
+# aws
+
+````
+sudo systemctl start greengrass
+sudo systemctl enable greengrass
+sudo systemctl status greengrass
+````
+
