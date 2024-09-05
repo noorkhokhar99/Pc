@@ -94,10 +94,11 @@ sudo python3.7 app.py
 
 ````
 sudo python3.7 -m pip install flask
-
-
 ````
 
+````
+sudo apt-get install python3-pip
+````
 
 ````
 sudo pip install awsiotsdk
