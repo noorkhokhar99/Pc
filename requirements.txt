@@ -2,3 +2,6 @@ schedule
 requests
 sounddevice
 scipy
+opencv-python
+flask
+awsiotsdk
