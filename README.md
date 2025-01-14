@@ -223,3 +223,20 @@ Add this line at the end, replacing username with your actual username:
 ````
 poulta ALL=(ALL) NOPASSWD: ALL
 ````
+
+
+##### port listner issue fix ###
+# Open a terminal.
+````
+
+sudo ufw status
+````
+
+
+Scroll down to the section with user privileges.
+
+Add this copy and paste which port you allow :
+
+````
+sudo ufw allow 23
+````
